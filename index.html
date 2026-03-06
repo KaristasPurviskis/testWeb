@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>kpurviskis</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <!--Navigācijas izvēlne-->
+                    <li><a href="GIMP.html">GIMP</a></li>
+                    <li><a href="inkscape.html">Inkscape</a></li>
+                    <li><a href="3d.html">3D</a></li>
+                    <li><a href="word.html">Word</a></li>
+                    <li><a href="excel.html">Excel</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Ko es esmu apguvis datorikā šī mācību gada laikā</h1>
+
+                <section class="about-isuma">
+                    <h2>Īsumā</h2>
+                    <div class="isuma-box">
+                        <div class="teksts-isuma">
+                            <p>blah blah blah</p>
+                        </div>
+                    </div>
+                </section>
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <!--laika linijas konteiners-->
+                    <div class="timeline-item">
+                        <div class="month">Septembris</div>
+                        <!-- laika linijas bloku sakums -->
+                        <div class="event">
+                            <h3>GIMP</h3>
+                            <p class="short-text">Īss teksts par GIMP??</p>
+                            <div class="full-text" style="display: none;">
+                                <p>pilns teksts par GIMP??</p>
+                            </div>
+                            <button class="read-more-btn">Lasīt vairāk</button>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="month">Oktobris</div>
+                        <!-- laika linijas bloku sakums -->
+                        <div class="event">
+                            <h3>Inkscape</h3>
+                            <p class="short-text">Īss teksts par inkscape??</p>
+                            <div class="full-text" style="display: none;">
+                                <p>pilns teksts par inkscape??</p>
+                            </div>
+                            <button class="read-more-btn">Lasīt vairāk</button>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="month">Novembis</div>
+                        <!-- laika linijas bloku sakums -->
+                        <div class="event">
+                            <h3>3D</h3>
+                            <p class="short-text">Īss teksts par 3D??</p>
+                            <div class="full-text" style="display: none;">
+                                <p>pilns teksts par 3D modelēšanuun printēšanu??</p>
+                            </div>
+                            <button class="read-more-btn">Lasīt vairāk</button>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="month">Novembris</div>
+                        <!-- laika linijas bloku sakums -->
+                        <div class="event">
+                            <h3>Word</h3>
+                            <p class="short-text">Īss teksts par Word??</p>
+                            <div class="full-text" style="display: none;">
+                                <p>pilns teksts par Word??</p>
+                            </div>
+                            <button class="read-more-btn">Lasīt vairāk</button>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="month">Janvāris</div>
+                        <!-- laika linijas bloku sakums -->
+                        <div class="event">
+                            <h3>Excel</h3>
+                            <p class="short-text">Īss teksts par Excel??</p>
+                            <div class="full-text" style="display: none;">
+                                <p>pilns teksts par Excel??</p>
+                            </div>
+                            <button class="read-more-btn">Lasīt vairāk</button>
+                        </div>
+                    </div>
+            </div>
+        </main>
+        <script>
+          <!-- Navigācijas aktīvās saites izcelšana -->
+      const links = document.querySelectorAll('nav a');
+      const currentUrl = window.location.href;
+    
+      links.forEach(link => {
+        if (link.href === currentUrl) {
+          link.classList.add('active');
+        }
+    </script> 
+    
+    <script src="script.js"></script>    
+    </body>
+</html>
